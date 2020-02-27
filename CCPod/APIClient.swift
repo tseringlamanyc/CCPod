@@ -8,8 +8,6 @@
 
 import Foundation
 import Alamofire
-//import SnapKit
-//import Kingfisher
 
 struct APICLient {
     
@@ -27,7 +25,14 @@ struct APICLient {
             if let error = response.error {
                 completion(.failure(error))
             } else if let data = response.data {
-                
+                do {
+                    let results = try JSONDecoder().decode(DrinksWrapper.self, from: data)
+                    if let cocktail = results.drinks.first {
+                        completion(.success(cocktail))
+                    }
+                } catch {
+                    print("\(error)")
+                }
             }
         }
     }
