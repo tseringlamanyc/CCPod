@@ -15,6 +15,7 @@
 		52AF61C4240814970012D090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52AF61C3240814970012D090 /* Assets.xcassets */; };
 		52AF61C7240814970012D090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AF61C5240814970012D090 /* LaunchScreen.storyboard */; };
 		52F4442524081C4E000B1A3D /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F4442424081C4E000B1A3D /* APIClient.swift */; };
+		52F444272408202E000B1A3D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F444262408202E000B1A3D /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		52AF61C6240814970012D090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52AF61C8240814970012D090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52F4442424081C4E000B1A3D /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		52F444262408202E000B1A3D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		619E26808290A8A427513542 /* Pods_CCPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72A40CAD282F99608D94941B /* Pods-CCPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCPod.release.xcconfig"; path = "Target Support Files/Pods-CCPod/Pods-CCPod.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +75,7 @@
 				52AF61C5240814970012D090 /* LaunchScreen.storyboard */,
 				52AF61C8240814970012D090 /* Info.plist */,
 				52F4442424081C4E000B1A3D /* APIClient.swift */,
+				52F444262408202E000B1A3D /* Model.swift */,
 			);
 			path = CCPod;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F444272408202E000B1A3D /* Model.swift in Sources */,
 				52AF61BF240814950012D090 /* ViewController.swift in Sources */,
 				52AF61BB240814950012D090 /* AppDelegate.swift in Sources */,
 				52AF61BD240814950012D090 /* SceneDelegate.swift in Sources */,
